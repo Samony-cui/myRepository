@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        .flag {
+            width: 300px;
+            height: 200px;
+            background-color: red;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .star1,.star2,.star3,.star4,.star5 {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+        }
+
+        .star1 {
+            top: 15px;
+            left: 15px;
+        }
+
+        .star2 {
+            transform: translate(46px,-18px) scale(0.4) rotate(32deg);
+        }
+
+        .star3 {
+            transform: translate(68px,3px) scale(0.4) rotate(-28deg);  
+        }
+
+        .star4 {
+            transform: translate(66px,32px) scale(0.4) rotate(10deg);
+        }
+
+        .star5 {
+            transform: translate(47px,58px) scale(0.4) rotate(50deg); 
+        }
+
+
+
+        .star1 div,.star2 div,.star3 div,.star4 div,.star5 div {
+            width: 0px;
+            height: 0px;
+            margin: 0 auto;
+            border: 6px solid red;
+            border-bottom: 18px solid yellow;
+        }
+        
+         .star1 .x1,.star2 .x1,.star3 .x1,.star4 .x1,.star5 .x1 {
+            position: absolute;
+            top: 0px;
+            left: 24px;
+            background-color: transparent;
+        }
+
+        .star1 .x2,.star2 .x2,.star3 .x2,.star4 .x2,.star5 .x2 {
+            transform: rotate(70deg);
+            position: absolute;
+            top: 13px;
+            left: 43px;
+        }
+
+        .star1 .x3,.star2 .x3,.star3 .x3,.star4 .x3,.star5 .x3 {
+            transform: rotate(144deg);
+            position: absolute;
+            top: 36px;
+            left: 36px;
+        }
+
+        .star1 .x4,.star2 .x4,.star3 .x4,.star4 .x4,.star5 .x4 {
+            
+            transform: rotate(215deg);
+            position: absolute;
+            top: 36px;
+            left: 12px;
+        }
+
+        .star1 .x5,.star2 .x5,.star3 .x5,.star4 .x5,.star5 .x5 {
+            
+            transform: rotate(290deg);
+            position: absolute;
+            top: 13px;
+            left: 5px;
+        }
+
+        .star1 .cen,.star2 .cen,.star3 .cen,.star4 .cen,.star5 .cen {
+            width: 20px;
+            height: 19px;
+            border: 0px solid yellow;
+            background-color: yellow;
+            position: absolute;
+            top: 23.2px;
+            left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div class="star1">
+            <div class="cen"></div>
+            <div class="x1"></div>
+            <div class="x2"></div>
+            <div class="x3"></div>
+            <div class="x4"></div>
+            <div class="x5"></div>
+        </div>
+        
+        <div class="star2">
+            <div class="cen"></div>
+            <div class="x1"></div>
+            <div class="x2"></div>
+            <div class="x3"></div>
+            <div class="x4"></div>
+            <div class="x5"></div>
+        </div>
+
+        <div class="star3">
+            <div class="cen"></div>
+            <div class="x1"></div>
+            <div class="x2"></div>
+            <div class="x3"></div>
+            <div class="x4"></div>
+            <div class="x5"></div>
+        </div>
+
+        <div class="star4">
+            <div class="cen"></div>
+            <div class="x1"></div>
+            <div class="x2"></div>
+            <div class="x3"></div>
+            <div class="x4"></div>
+            <div class="x5"></div>
+        </div>
+
+        <div class="star5">
+            <div class="cen"></div>
+            <div class="x1"></div>
+            <div class="x2"></div>
+            <div class="x3"></div>
+            <div class="x4"></div>
+            <div class="x5"></div>
+        </div>
+    </div>
+</body>
+</html>
